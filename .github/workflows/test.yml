@@ -14,3 +14,14 @@ jobs:
     steps:
     - name: Checkout Code
       uses: actions/checkout@v4
+
+  - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@v1.2.0
+      with:
+        host: ${{ secrets.EC2_IP }}
+        username: ubuntu
+        key: ${{ secrets.SSH_KEY }}
+        port: ${{ secrets.PORT }}
+        script: |
+          whoami
+          ls -al
