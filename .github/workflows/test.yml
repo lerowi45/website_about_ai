@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main  # Trigger deployment on pushes to the main branch
-      - ft-auto-deploy
+      - ft-auto-deploy # Trigger deployment on pushes to the main branch
 
 jobs:
   deploy:
