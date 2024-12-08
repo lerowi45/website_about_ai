@@ -1,0 +1,85 @@
+body {
+	background-color: #1c305c; 
+	color: white;
+}
+
+#navig {
+	color: white;
+	
+}
+
+.pages, .nav_button, .menu_button, .ref {
+	color: #ff2400;
+}
+
+#menuBars {
+	display: inline;
+	cursor: pointer;
+	float:;
+	clear:;
+}
+
+/* menu button */
+.bar1, .bar2, .bar3 {
+	/*display: inline;*/
+	align-items:;
+	width: 35px;
+	height: 5px;
+	background-color: white; 
+	margin: 6px 0px;
+	transition: 0.4s;
+}
+
+/* rotate first bar */
+.change .bar1 {
+	transform: translate(0, 11px) rotate(-45deg);
+}
+
+/*remove second bar*/
+.change .bar2 {
+	opacity: 0;
+}
+
+/*rotate third bar*/
+.change .bar3 {
+	transform: translate(0, -11px) rotate(45deg);
+}
+
+#dropDown {
+	width: 160px;
+	height:100px;
+	float:;
+	/*margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;*/
+	background-color: #333;
+}
+
+.dropdwn-content {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+
+.dropdwn-content a {
+	text-align:;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 20px;
+}
+
+
+
+.nav_button:Hover, .dropdwn-content a:Hover {
+	background-color: #ddd;
+}
+
+
+.image {
+	display:;
+	margin-top:;
+	width:250px;
+	height:250px;
+}
